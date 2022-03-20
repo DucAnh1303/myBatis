@@ -5,7 +5,6 @@ import org.apache.ibatis.type.MappedTypes;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@MappedTypes(Users.class)
 @SpringBootApplication
 public class SpringBootDemoMybatisApplication {
 	public static void main(String[] args) {
